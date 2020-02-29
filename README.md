@@ -9,7 +9,7 @@ Resources/purchase_data.csv: The purchase data file
 
 
 ### Import Dependancies
-'''
+```
 # Dependencies and Setup
 import pandas as pd
 import numpy as np
@@ -20,8 +20,7 @@ file_to_load = "Resources/purchase_data.csv"
 
 # Read Purchasing File and store into Pandas data frame
 purchase_data = pd.read_csv(file_to_load)
-'''
-
+```
 
 ## Player Count
 
