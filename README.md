@@ -1,31 +1,24 @@
 # Pymoji (Pandas Challenge)
 
 ## Files in this Repository
-
 HeroesOfPymoli.ipynb: This Jupyter notebook contains code to realize the following data summaries
 
 Resources/purchase_data.csv: The purchase data file
 
-
-
-### Import Dependancies
-```Python
-# Dependencies and Setup
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-
-# File to Load (Remember to Change These)
-file_to_load = "Resources/purchase_data.csv"
-
-# Read Purchasing File and store into Pandas data frame
-purchase_data = pd.read_csv(file_to_load)
-```
-
 ## Player Count
 
 Total Number of Players
+#get unique players
+total_players = purchase_data["SN"].unique()
 
+#set up a dictionary
+playerDict = [{"Total Players":len(total_players)}]
+
+#set up a pandas Data Frame
+total_players_df = pd.DataFrame(playerDict)
+
+# Display the frame
+total_players_df
 
 ## Purchasing Analysis (Total)
 
