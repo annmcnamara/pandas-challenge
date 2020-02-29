@@ -6,19 +6,7 @@ HeroesOfPymoli.ipynb: This Jupyter notebook contains code to realize the followi
 Resources/purchase_data.csv: The purchase data file
 
 ## Player Count
-
 Total Number of Players
-#get unique players
-total_players = purchase_data["SN"].unique()
-
-#set up a dictionary
-playerDict = [{"Total Players":len(total_players)}]
-
-#set up a pandas Data Frame
-total_players_df = pd.DataFrame(playerDict)
-
-# Display the frame
-total_players_df
 
 ## Purchasing Analysis (Total)
 
