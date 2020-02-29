@@ -5,6 +5,9 @@ HeroesOfPymoli.ipynb: This Jupyter notebook contains code to realize the followi
 
 Resources/purchase_data.csv: The purchase data file
 
+# Data Reporting
+The following data are extracted from the csv file into the following tables
+
 ## Player Count
 Total Number of Players
 
@@ -72,6 +75,19 @@ Identify the 5 most profitable items by total purchase value, then list (in a ta
 * Total Purchase Value
 
 
-## Trends in the Data
+# Trends in the Data
 
+For the given data the following trends can be observed:
+
+## Trend 1
+
+Male Players outnumber Female players by over five to one, but the average purchase per Female Players is slighly higher
+
+## Trend 2
+
+For this data most of the players are in the age range 20 to 24 (44%), with 75% of players falling in the age range 15 to 29
+
+## Trend 3
+
+The most profitable items are not necessarily the most expensive items, for example the most profitable game Oathbreaker, Last Hope of the Breaking Storm is priced at $4.23 which was cheaper than the following four most profitable games.
  
