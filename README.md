@@ -70,3 +70,8 @@ Identify the 5 most profitable items by total purchase value, then list (in a ta
 * Purchase Count
 * Item Price
 * Total Purchase Value
+
+
+## Trends in the Data
+
+ 
