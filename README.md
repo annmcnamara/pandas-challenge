@@ -81,7 +81,7 @@ For the given data the following trends can be observed:
 
 ## Trend 1
 
-Male Players outnumber Female players by over five to one, but the average purchase per Female Players is slighly higher
+Male Players outnumber Female players by over five to one, but the average purchase per Female Players is slightly higher
 
 ## Trend 2
 
