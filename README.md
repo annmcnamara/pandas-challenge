@@ -9,7 +9,7 @@ Resources/purchase_data.csv: The purchase data file
 
 
 ### Import Dependancies
-```
+```Python
 # Dependencies and Setup
 import pandas as pd
 import numpy as np
